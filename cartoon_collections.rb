@@ -42,7 +42,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
     if array.include?("cheddar", "gouda", "camembert")
       # return the first string that is a type of cheese
-      return cheese
+      return "cheese"
     else
       return nil
     end
