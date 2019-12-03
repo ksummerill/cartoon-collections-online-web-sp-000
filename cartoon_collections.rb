@@ -2,7 +2,7 @@
 
 def roll_call_dwarves(array)
   counter = 1
-    array.each_with_index do |array| 
+    array.each_with_index do |array|
     counter += 1
     end
 end
