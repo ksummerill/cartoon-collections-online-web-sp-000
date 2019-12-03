@@ -36,8 +36,16 @@ end
 
 # look through array of strings to find and return the first string
 # that is a type of cheese
+# cheddar_cheese = %w[banana cheddar sock]
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.include?(cheese_types)
 
+  array.each do |cheese|
+    if cheese.include?(cheese_types)
+      # return the first string that is a type of cheese
+      return cheese
+    else
+      return nil
+    end
+  end
 end
