@@ -4,6 +4,7 @@ def roll_call_dwarves(array)
   all_dwarves = []
   counter = 1
     all_dwarves << array.each_with_index do |array|
+      all_dwarves << " #{counter}. #{array}"
     counter += 1
     end
     puts all_dwarves
