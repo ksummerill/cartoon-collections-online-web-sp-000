@@ -37,6 +37,7 @@ end
 # look through array of strings to find and return the first string
 # that is a type of cheese
 # cheddar_cheese = %w[banana cheddar sock]
+# no_cheese = %w[ham cellphone computer]
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
@@ -45,7 +46,7 @@ def find_the_cheese(array)
       # return the first string that is a type of cheese
       return cheese
     else
-      puts "bleh"
+      return nil
     end
   end
 end
