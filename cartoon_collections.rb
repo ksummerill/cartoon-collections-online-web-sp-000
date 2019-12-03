@@ -16,7 +16,7 @@ end
 def summon_captain_planet(array)
   cap_return = []
   array.map! do |planeteer|
-    cap_return << planeteer.capitalize.join("!")
+    cap_return << planeteer.capitalize
   end
 end
 
