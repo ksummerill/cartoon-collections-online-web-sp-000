@@ -45,7 +45,7 @@ def find_the_cheese(array)
       # return the first string that is a type of cheese
       return cheese
     else
-      return nil
+      return "bleh"
     end
   end
 end
