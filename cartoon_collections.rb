@@ -15,7 +15,7 @@ end
 # planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(array)
   cap_return = []
-  array.map! do |planeteer|
+  array.each do |planeteer|
     cap_return << planeteer.capitalize
   end
 end
