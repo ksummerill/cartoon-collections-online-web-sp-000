@@ -26,8 +26,8 @@ end
 # calls_long = ["axe", "earth", "wind", "fire"]
 # calls_short = ["wind", "fire", "tree", "axe", "code"]
 def long_planeteer_calls(array)
-  array.each do |call|
-    if call.any?.length > 4
+  array.any? do |call|
+    if call.length > 4
       return true
     else false
     end
