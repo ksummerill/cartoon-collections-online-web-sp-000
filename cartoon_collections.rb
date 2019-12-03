@@ -2,8 +2,9 @@
 
 def roll_call_dwarves(array)
   counter = 1
-  array.each_with_index { |array| }
-  counter += 1
+    array.each_with_index do |array| 
+    counter += 1
+    end
 end
 
 def summon_captain_planet# code an argument here
