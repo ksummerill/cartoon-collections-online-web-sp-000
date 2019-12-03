@@ -10,9 +10,16 @@ def roll_call_dwarves(array)
     puts all_dwarves
 end
 
+# It should then capitalize each element and add an exclamation point at the end.
+# The return value of this method should be an array
+# planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(array)
-  # Your code here
+  # cap_return = []
+  array.map do |planeteer|
+    
+  end  
 end
+
 
 def long_planeteer_calls# code an argument here
   # Your code here
