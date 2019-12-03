@@ -17,7 +17,7 @@ def summon_captain_planet(array)
   # cap_return = []
   array.map do |planeteer|
     
-  end  
+  end
 end
 
 
