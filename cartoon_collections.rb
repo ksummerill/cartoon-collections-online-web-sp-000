@@ -39,7 +39,7 @@ end
 # cheddar_cheese = %w[banana cheddar sock]
 # no_cheese = %w[ham cellphone computer]
 def find_the_cheese(array)
-  
+
 
   array.detect do |cheese|
     cheese_types = ["cheddar", "gouda", "camembert"]
