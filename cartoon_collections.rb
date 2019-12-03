@@ -1,5 +1,9 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+# It should then print out each name, in number order, using puts
+
+def roll_call_dwarves(array)
+  counter = 1
+  array.each_with_index { |array| }
+  counter += 1
 end
 
 def summon_captain_planet# code an argument here
