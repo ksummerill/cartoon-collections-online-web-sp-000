@@ -21,7 +21,8 @@ def summon_captain_planet(array)
   cap_return
 end
 
-
+# The method should tell us if any of the calls are longer than four characters.
+# return true or false
 def long_planeteer_calls(array)
   # Your code here
 end
