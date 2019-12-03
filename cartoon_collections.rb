@@ -44,7 +44,7 @@ def find_the_cheese(array)
   array.each do |cheese|
     if cheese_types.include?(cheese)
       # return the first string that is a type of cheese
-      return cheese
+      return cheese.detect
     else
       return nil
     end
