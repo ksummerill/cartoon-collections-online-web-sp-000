@@ -45,7 +45,7 @@ def find_the_cheese(array)
     if cheese_types.include?(cheese)
       # return the first string that is a type of cheese
       return cheese
-    else  
+    else  return nil
     end
   end
 end
