@@ -14,9 +14,9 @@ end
 # The return value of this method should be an array
 # planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(array)
-  # cap_return = []
+  cap_return = []
   array.map! do |planeteer|
-    planeteer.capitalize
+    cap_return << planeteer.capitalize
   end
 end
 
