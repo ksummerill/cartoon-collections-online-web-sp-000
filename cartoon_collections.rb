@@ -1,10 +1,12 @@
 # It should then print out each name, in number order, using puts
 
 def roll_call_dwarves(array)
+  all_dwarves = []
   counter = 1
-    array.each_with_index do |array|
+    all_dwarves << array.each_with_index do |array|
     counter += 1
     end
+    puts 
 end
 
 def summon_captain_planet# code an argument here
