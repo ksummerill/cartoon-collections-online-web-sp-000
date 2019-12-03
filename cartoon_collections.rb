@@ -24,12 +24,13 @@ end
 # The method should tell us if any of the calls are longer than four characters.
 # return true or false
 # calls_long = ["axe", "earth", "wind", "fire"]
+# calls_short = ["wind", "fire", "tree", "axe", "code"]
 def long_planeteer_calls(array)
   array.each do |call|
-    if call.length > 4
+    if call.any?.length > 4
       return true
     else false
-    end  
+    end
   end
 end
 
